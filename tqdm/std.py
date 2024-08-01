@@ -1300,7 +1300,7 @@ class tqdm(Comparable):
                 # stats for overall rate (no weighted average)
                 self._ema_dt = lambda: None
                 self.display(pos=0)
-                fp_write('\n')
+                #fp_write('\n')
             else:
                 # clear previous display
                 if self.display(msg='', pos=pos) and not pos:
